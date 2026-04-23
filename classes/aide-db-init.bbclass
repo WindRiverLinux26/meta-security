@@ -14,7 +14,7 @@
 # They can be overriden in your local.conf or other distro include 
 #
 # To define where the share directory should be.
-#    STAGING_AIDE_DIR = "${TMPDIR}/work-shared/${MACHINE}/aida"
+#    STAGING_AIDE_DIR = "${TMPDIR}/work-shared/${MACHINE}/aide"
 #
 # To define which directories should be inclued in a scan
 #    AIDE_INCLUDE_DIRS ?= "/lib"
