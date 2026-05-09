@@ -65,7 +65,7 @@ do_install () {
 
     oe_runmake install DESTDIR=${D}
     install -m 644 ${UNPACKDIR}/arpwatch.conf  ${D}${sysconfdir}
-    install -m 655 ${UNPACKDIR}/arpwatch_init  ${D}${sysconfdir}/init.d/arpwatch
+    install -m 755 ${UNPACKDIR}/arpwatch_init  ${D}${sysconfdir}/init.d/arpwatch
     install -m 644 ${UNPACKDIR}/arpwatch.default  ${D}${sysconfdir}/default
 }
 
