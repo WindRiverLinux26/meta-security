@@ -8,7 +8,6 @@ LICENSE = "BSD-3-Clause"
 
 SRCREV = "a1b32362394c7739a7a94426c61c7cb24449d9a0"
 SRC_URI = "git://github.com/ComplianceAsCode/content.git;protocol=https;branch=stable \
-           file://0001-Replace-pkg_resources.Requirement.patch \
            file://run_eval.sh \
            "
 
